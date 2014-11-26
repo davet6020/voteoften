@@ -1,7 +1,7 @@
 <?php
 	session_start();
 	$_SESSION['utils']="common/utilities.php";	//Program with common functions.
-	$_SESSION['dbopen']="../db_voteoften.php";
+	$_SESSION['dbopen']="db_voteoften.php";
 	
 	require_once($_SESSION['utils']);
 	$util = new Utilities();

@@ -1,11 +1,11 @@
 <?php
 	session_start();
 	$_SESSION['utils']="common/utilities.php";	//Program with common functions.
-	$_SESSION['dbopen']="../db_voteoften.php";
+	$_SESSION['dbopen']="db_voteoften.php";
 	
 	require_once($_SESSION['utils']);
-      $util = new Utilities();
-		$util->keep_alive();
+	$util = new Utilities();
+	$util->keep_alive();
 
 	if(isset($_GET['process']) && !empty($_GET['process']))	{
 		$process = $_GET['process'];
@@ -35,11 +35,10 @@
 	}	else	{
 		$msgbody = "";
 	}
-	
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+				"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -182,7 +181,7 @@
 					<li><a href="menutemplate.php?process=videos.php&candidate=Obama">President Obama</a></li>
 					<li><a href="menutemplate.php?process=videos.php&candidate=Romney">Mitt Romney</a></li>
 					<li><a href="menutemplate.php?process=twitter.php">Political Twitter</a></li>
-			   </ul>
+				 </ul>
 			</li>
 			
 			<li><a href="index.php">About</a>
@@ -212,7 +211,7 @@
 		</ul>
 	</div>
 
-   <?php
+	 <?php
 		switch($process)	{
 			case "about.php":
 				include('about.php');
