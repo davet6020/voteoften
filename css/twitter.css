@@ -1,0 +1,75 @@
+/* Global Layout */
+body {
+      /*font: 12px Arial, Helvetica, sans-serif;*/
+      color: #999;
+}
+/* End of Global Layout */
+
+/* Global Styles */
+/* Disable CSS Text Decoration Property */
+a {
+          text-decoration:none;
+          color:#667;
+}
+/* Enable CSS Text Decoration Property and select underline */
+a:hover {
+          text-decoration:underline;
+}
+
+/* End of Global Styles */
+
+.selector {
+  padding-right: 5px;
+  margin-left: 20px;
+  font-size: 10px;
+}
+
+/* Section: Header */
+
+.tweet {
+          padding:0 10px;
+}
+
+/* Section: Table */
+/* Format the Detail Table with border */
+#detail_table td{
+          width:330px;
+          padding-top:2px;
+          padding-left:5px;
+          padding-bottom:2px;
+          vertical-align: top;
+          color:#333;
+          border-bottom:1px solid #DBDBDB;
+          font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+          font: 12px Arial, Helvetica, sans-serif;
+          valign: top;
+}
+
+/* Section: Messages */
+/* Format the Message container */
+.container{
+          float:left;
+          width:320px;
+}
+/* Format the Message image */
+.mess-pic {
+  background-color:#eee;
+  padding-right: 5px;
+  margin-left: 3px;
+  margin-top: 1px;
+  font-size: 10px;
+  float:left;
+}
+/* Format the Message container */
+.mess-container{
+  float:left;
+  width: 250px;
+  padding-left:10px;
+}
+/* Format the Message content */
+.mess-row-text{
+	font: 12px Arial, Helvetica, sans-serif;
+	float:right; padding-left:10px; width:250px;
+}
+
+

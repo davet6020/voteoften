@@ -1,0 +1,24 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: -webkit-gradient(linear, 0 top, 0 bottom, from(#496178), to(#d8d8d8));
+  
+  color: #000000;
+  padding-left: 5em;
+  width: 95%;
+  display: table;
+}
+
+h1 {
+   text-align:center;
+}
+
+p.date {
+   text-align:right;
+}
+
+p.main {
+   text-align:justify;
+##background-color: #aeaeae;
+   background-size: 275px 125px;
+}
